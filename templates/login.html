@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Login</title>
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}" />
+
+  </head>
+  <body style="background-color: #282c34;min-height: 100vh;display: flex;flex-direction: column;align-items: center;justify-content: center;font-size: calc(10px + 2vmin);color: white;">
+    <div >
+    <h1 style="text-align: center; margin-bottom: 3rem;">Login</h1>
+    <form method="post" style="    display: flex;align-items: center;justify-content: center;">
+      <!-- <label for="username">Username:</label> -->
+      <input style="font-size: 1.3rem;border-radius: 0.5rem;padding: 0.5rem;border-width: 0px; text-align: center;" type="text" id="username" name="username" placeholder="username" required>
+      <button style="background-color: rgb(255, 163, 113);border-width: 0;font-size: 1rem;color: white;padding-inline: 1.9rem;padding-block: 0.7rem;border-radius: .5rem;margin-inline: 2rem;" type="submit">Login</button>
+    </form>
+</div>
+  </body>
+</html>

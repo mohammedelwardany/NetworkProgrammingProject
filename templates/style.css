@@ -1,0 +1,29 @@
+.AppContainer{
+
+}
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .join-ptn{
+    background-color: rgb(255, 163, 113);
+    border-width: 0;
+    font-size: 1rem;
+    color: white;
+    padding-inline: 1.9rem;
+    padding-block: 0.7rem;
+    border-radius: .5rem;
+    margin-inline: 2rem;
+  }
+
+  .formContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
